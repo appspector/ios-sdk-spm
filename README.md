@@ -18,6 +18,6 @@ so if you need version with end-to-end encryption please refer to the main repo 
 
 
 For the rest of you: to install SDK via SPM just press '+' sign in Xcode list of packages and paste repo address: 'https://github.com/appspector/ios-sdk-spm' into the search field:
-# ![](https://github.com/appspector/ios-sdk-spm/raw/master/spm-install-1.png)
+![](https://github.com/appspector/ios-sdk-spm/raw/master/spm-install-1.png)
 Two targets will be available: for iOS and tvOS, choose which one you need, press 'next' and you are done:
-# ![](https://github.com/appspector/ios-sdk-spm/raw/master/spm-install-2.png)
+![](https://github.com/appspector/ios-sdk-spm/raw/master/spm-install-2.png)
