@@ -1,5 +1,5 @@
 [![GitHub release](https://img.shields.io/github/release/appspector/ios-sdk-spm.svg)](https://github.com/appspector/ios-sdk-spm)
-[![Build Status](https://app.bitrise.io/app/17e138eab39135f1/status.svg?token=jlmNh2tlt2SQojwlhMojNw)](https://app.bitrise.io/app/17e138eab39135f1)
+[![Build Status](https://app.bitrise.io/app/17e138eab39135f1/status.svg?token=jlmNh2tlt2SQojwlhMojNw&branch=develop)](https://app.bitrise.io/app/17e138eab39135f1)
 # ![AppSpector](https://github.com/appspector/ios-sdk-spm/raw/master/github-cover.png)
 
 # Swift package for AppSpector
