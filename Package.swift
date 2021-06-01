@@ -1,26 +1,29 @@
 // swift-tools-version:5.3
-import PackageDescription
+    import PackageDescription
 
-let package = Package(
-    name: "AppSpector",
-    products: [
-        .library(
-            name: "AppSpector",
-            targets: ["AppSpectorSDK"]),
-        .library(
-            name: "AppSpectorTVSDK",
-            targets: ["AppSpectorTVSDK"])
-    ],
-    targets: [
-        .binaryTarget(
-            name: "AppSpectorSDK",
-            url: "https://github.com/appspector/ios-sdk/releases/download/1.4.0/AppSpectorSDK-1.4.0.xcframework.zip",
-            checksum: "fdb32272dc4a5b696c9e035f1edcd3e0150535d5f1681271e86328c0d8140cce"
-        ),
-        .binaryTarget(
-            name: "AppSpectorTVSDK",
-            url: "https://github.com/appspector/ios-sdk/releases/download/1.4.0/AppSpectorTVSDK-1.4.0.xcframework.zip",
-            checksum: "89ccdb135f8384ecb3dbc5cb76c4092a7be1f535e46680ada7e71e0a8ba2eef8"
-        )
-    ]
-)
+    let package = Package(
+        name: "AppSpector",
+        platforms: [
+            .iOS(.v13), .tvOS(.v13)
+        ],
+        products: [
+            .library(
+                name: "AppSpector",
+                targets: ["AppSpectorSDK"]),
+            .library(
+                name: "AppSpectorTVSDK",
+                targets: ["AppSpectorTVSDK"])
+        ],
+        targets: [
+            .binaryTarget(
+                name: "AppSpectorSDK",
+                url: "https://github.com/appspector/ios-sdk/releases/download/1.4.2/AppSpectorSDK.xcframework.zip",
+                checksum: "9593105cff7ffd91c79ba3a37b7e1a06a725023c7e85548e45836e1e73068a4b"
+            ),
+            .binaryTarget(
+                name: "AppSpectorTVSDK",
+                url: "https://github.com/appspector/ios-sdk/releases/download/1.4.2/AppSpectorTVSDK.xcframework.zip",
+                checksum: "a3f2008342c6fe2eae2acce8fe5ddc5a78167ef9561ec90eaa99a4da34610ed9"
+            )
+        ]
+    )
