@@ -23,5 +23,6 @@ Two targets will be available: for iOS and tvOS, choose which one you need, pres
 ![](https://github.com/appspector/ios-sdk-spm/raw/master/spm-install-2.png)
 
 ## End-to-End version
-We are still fighting E2E version SPM support, for now it's not available via SPM. This page will be updated as soon as we'll finish.
-If you need E2E version please use other available installation methods listed in te main repo: https://github.com/appspector/ios-sdk#installation
+We are still fighting E2E version SPM support, for now it's not available via SPM due to this issue: https://bugs.swift.org/browse/SR-14245.
+
+This page will be updated as soon as we'll finish. If you need E2E version please use other available installation methods listed in the main repo: https://github.com/appspector/ios-sdk#installation
